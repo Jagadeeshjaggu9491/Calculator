@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&family=Roboto:wght@300&display=swap');
+
+html,
+body {
+    background: url(./calc-banner.jpg), no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calc{
+    background: #000;
+    border: 1px solid;
+    padding: 30px;
+}
+
+.button {
+    font-size: large;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin: 4px;
+    border: 2px solid;  
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #000;
+    color: #fff;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-size: 30px;
+    margin: 0;
+    height: 45px;
+    width: 270px;
+    border: 2px solid;
+    border-radius: 5px;
+}
